@@ -1,6 +1,6 @@
-# Banking CLI App
+# OBINNA Banking CLI App
 
-The Banking CLI App is a command-line interface application that allows users to register, login, and perform banking operations such as depositing money, withdrawing money, checking balance, and transferring money between accounts.
+The Banking CLI App is a command-line interface application that allows users to register, login, and perform banking operations such as depositing money, withdrawing money, checking balance, and transferring money between accounts that exist in OBINNA Bank Database.
 
 ## Features
 
@@ -13,44 +13,42 @@ The Banking CLI App is a command-line interface application that allows users to
 
 ## Prerequisites
 
-- Node.js and npm installed on your system.
-- MongoDB database connection details.
+To run this project, you will need to have the following:
+
+- [Node.js](https://nodejs.org/en/)
+- [yarn](https://classic.yarnpkg.com/en/docs/cli/install)
+- [Mongo Atlas](https://www.mongodb.com/atlas/database/)
 
 ## Installation
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/banking-cli-app.git
-   ```
-
-````
+```bash
+    git clone https://github.com/obinnafranklinduru/banking-cli-app
+```
 
 2. Navigate to the project directory:
 
 ```bash
-    cd banking-cli-app
-````
-
-```
     cd banking-cli-app
 ```
 
 3. Install the dependencies:
 
 ```bash
-    npm install
+    yarn install
 ```
 
-4. Configure the MongoDB connection:
+4. Configure the environment variables:
 
-- Open the config/db.js file.
-- Replace the MongoDB connection URL with your own database connection URL.
+- Create a `.env` file in the root directory.
+- Define a variable in the `.env` file:
+  - `MONGODB_URI`: The connection string for your MongoDB database.
 
 5. Start the application:
 
 ```bash
-    node index.js
+    yarn run start
 ```
 
 ## Usage

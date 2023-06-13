@@ -1,0 +1,17 @@
+{
+  "name": "banking-app",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "Obinna Franklin Duru",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.1.4",
+    "mongoose": "^7.2.3",
+    "readline-sync": "^1.4.10",
+    "spinnies": "^0.5.1"
+  }
+}
